@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momemtum - 2021</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body class="white">
+    <div class="main-view">
+      <div class="js-time">
+        <h1 class="now-time"></h1>
+      </div>
+      <div class="js-name">
+        <h3 class="my-name"></h3>
+      </div>
+    
+      <div class="name-persistance">
+        <form class="hidden" id="js-nameForm">
+          <h3>What's your name ?</h3>
+          <input type="text">
+        </form>
+        <h4 class="hidden greeting" id="js-displayName"></h4>
+      </div>
+    
+      <div class="js-toDO toDo">
+        <form id="js-toDoForm">
+          <input type="text" placeholder="Write your to do . . .">
+        </form>
+        <h6>Pending</h6>
+        <ul class="toDoList" id="js-pending"></ul>
+        <h6>Finished</h6>
+        <ul class="toDoList" id="js-finished"></ul>
+      </div>
+    </div>
+    
+    <div class="buttons">
+      <button class="convert-button js-dark-mode"><i class="far fa-moon"></i></button>
+      <button class="convert-button js-calculator"><i class="fas fa-calculator"></i></button>
+    </div>
+
+    <div class="calculator hidden">
+      <div class="calculator__column">
+        <div class="screen js-screen"></div>
+        <button class="operatorBtn js-operatorBtn" value="c">C</button>
+      </div>
+      <div class="calculator__column">
+        <button class="js-numberBtn numberBtn" value="7">7</button>
+        <button class="js-numberBtn numberBtn" value="8">8</button>
+        <button class="js-numberBtn numberBtn" value="9">9</button>
+        <button class="operatorBtn js-operatorBtn" value="+">+</button>
+      </div>
+      <div class="calculator__column">
+        <button class="js-numberBtn numberBtn" value="4">4</button>
+        <button class="js-numberBtn numberBtn" value="5">5</button>
+        <button class="js-numberBtn numberBtn" value="6">6</button>
+        <button class="operatorBtn js-operatorBtn" value="-">-</button>
+      </div>
+      <div class="calculator__column">
+        <button class="js-numberBtn numberBtn" value="1">1</button>
+        <button class="js-numberBtn numberBtn" value="2">2</button>
+        <button class="js-numberBtn numberBtn" value="3">3</button>
+        <button class="operatorBtn js-operatorBtn" value="*">*</button>
+      </div>
+      <div class="calculator__column">
+        <button class="js-numberBtn numberBtn zeroBtn" value="0">0</button>
+        <button class="js-operatorBtn numberBtn" value="=">=</button>
+        <button class="operatorBtn js-operatorBtn" value="/">/</button>
+      </div>
+    </div>
+
+    <div class="weather js-weather">
+      <div class="weather__column">
+        <i class="js-nowWeather"></i>
+        <span class="js-temperature"></span>
+      </div>
+      <span class="js-place"></span>
+    </div>
+    
+    <script src="javascript/greeting.js"></script>
+    <script src="javaScript/time.js"></script>
+    <script src="javaScript/toDo.js"></script>
+    <script src="javaScript/bg.js"></script>
+    <script src="javaScript/calculator.js"></script>
+    <script src="javaScript/weather.js"></script>
+    <script src="https://kit.fontawesome.com/9323719bfa.js" crossorigin="anonymous"></script>
+  </body>
+</html>

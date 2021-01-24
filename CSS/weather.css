@@ -1,0 +1,15 @@
+.weather {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather__column {
+  margin-bottom: 10px;
+}
+
+.weather__column span:last-child {
+  font-size: 30px;
+}
