@@ -22,9 +22,9 @@ function getRandom() {
 
 function paintImage(imgNumber, on) {
   if (!on) {
-    image.src = `/images/${bgTheHours()}${imgNumber + 1}.jpg`;
+    image.src = `./images/${bgTheHours()}${imgNumber + 1}.jpg`;
   } else {
-    image.src = `/images/evening${imgNumber + 1}.jpg`;
+    image.src = `./images/evening${imgNumber + 1}.jpg`;
   }
 }
 
