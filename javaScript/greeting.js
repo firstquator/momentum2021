@@ -50,7 +50,6 @@ const handleSubmit = (e) => {
 
 function init() {
   loadedName();
-  
 }
 
 init();
