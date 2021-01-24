@@ -8,6 +8,7 @@ function saveName(name) {
   localStorage.setItem(NAME, name);
 }
 
+
 function theHours() {
   const date = new Date().getHours();
 
